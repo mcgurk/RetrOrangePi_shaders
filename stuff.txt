@@ -1,0 +1,80 @@
+Shaders:
+https://www.dropbox.com/s/ol6yutuy4anens4/glsl.zip?dl=0
+Roy Corser Sure...a link for a complete pack. Use only glsl....cg are not supported. I have a good result using "2xsal, x2, nearest" but first disable hw bilinear filtering. Have fun!
+(~/.config/retroarch/shaders ?)
+/opt/retropie/emulators/retroarch/shader
+Jälkimmäinen näyttäs olevan ainakin retroarchin oletushakemisto.
+interlaced.glsl ei näyttäny hyvältä.
+Ei toiminu suoraan RetroPiestä otettu crt-pi.glsl/crt-pi.glslp.
+https://mega.nz/#!ON501ZwT!MSxPmeSCn55G-GmYxiay0zL6NGyU6HTrUbApanJ16nY
+/opt/retropie/emulators/retroarch/shader
+RetroArch-menu: Settings->Video->Integer scale
+https://www.facebook.com/groups/1131759626884432/permalink/1157090121018049/
+
+UTF-8, UNIX
+
+http://www.khronos.org/files/opengl-quick-reference-card.pdf
+
+https://github.com/libretro/RetroArch/wiki/GLSL-shaders
+
+https://github.com/libretro/common-shaders/tree/master/docs
+-  scale_typeN (string): This can be set to one of these values:
+   "source":   Output size of shader pass N is relative to the input size
+               as found in IN.video_size. Value is float.
+   "viewport": Output size of shader pass N is relative to the size of the
+               window viewport. Value is float.
+               This value can change over time if the user 
+               resizes his/her window!
+   "absolute": Output size is statically defined to a certain size.
+               Useful for hi-res blenders or similiar.
+   
+   If no scale type is assumed, it is assumed that it is set to "source"
+   with scaleN set to 1.0.
+
+   It is possible to set scale_type_xN and scale_type_yN to specialize
+   the scaling type in either direction. scale_typeN however
+   overrides both of these.
+
+   IN.video_size: The size of the actual video data in the texture, 
+   e.g for a SNES this will be generally 
+   (256, 224) for normal resolution frames.   
+
+   IN.texture_size: This is the size of the texture itself. 
+   Optimally power-of-two sized.
+
+   IN.output_size: The size of the video output. 
+   This is the size of the viewport shown on screen.
+   
+   
+uniform COMPAT_PRECISION vec2 OutputSize;
+uniform COMPAT_PRECISION vec2 TextureSize;
+uniform COMPAT_PRECISION vec2 InputSize;
+   
+scale_type_x0 = "viewport"
+scale_x0 = "1.000000"
+scale_type_y0 = "viewport"
+scale_y0 = "1.000000"
+
+scale_type_x0 = "source"
+scale_x0 = "1.000000"
+scale_type_y0 = "source"
+scale_y0 = "3.000000"
+
+  //viewport
+  vec4 _res;
+  _res = COMPAT_TEXTURE(Texture, TEX0.xy);
+  _TMP1 = TEX0.y*TextureSize.y;
+  _TMP1 = gl_FragCoord.y;
+  _TMP1 = mod(_TMP1-1.5, 3.0) / 3.0;
+  FragColor = _res - (_TMP1*0.5);
+  
+  //source
+  vec4 _res;
+  _res = COMPAT_TEXTURE(Texture, TEX0.xy);
+  _TMP1 = TEX0.y*TextureSize.y;
+  _TMP2 = fract(_TMP1);
+  if (_TMP2 < 0.5) { 
+    FragColor = _res;
+  } else {
+    FragColor = _res * 0.5;
+  }
