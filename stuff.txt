@@ -13,6 +13,8 @@ https://www.facebook.com/groups/1131759626884432/permalink/1157090121018049/
 
 UTF-8, UNIX
 
+http://www.shaderific.com/glsl-functions/
+
 http://www.khronos.org/files/opengl-quick-reference-card.pdf
 
 https://github.com/libretro/RetroArch/wiki/GLSL-shaders
