@@ -31,12 +31,12 @@ It is possible to make good quality scanline shader with scaling (normal 1080p d
 
 Example of "broken" scanlines, where image is scaled with not integer factor:
 
-<a href="url"><img src="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/scan_broken.jpg" align="left" height="200"></a>
+<a href="url"><img src="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/scan_broken.jpg" height="200"></a>
 
 
 Example of working scanlines, where image is scaled with integer factor (3x):
 
-<a href="url"><img src="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/scan_ok.jpg" align="left" height="200"></a>
+<a href="url"><img src="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/scan_ok.jpg" height="200"></a>
 
 
 ## experimenting
