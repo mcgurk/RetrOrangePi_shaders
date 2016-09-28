@@ -16,6 +16,16 @@ Vertical size is fixed (3 times emulator image vertical resolution).
 
 Works best with 720p display mode and with emulators with vertical resolution 240 or less. If vertical resolution of image is less than 240, image is not fullscreen.
 
+### 2.5.2!
+RetrOrange default is to overwrite retroarch.cfg. Turn override off:
+
+RetroPie -> Retroarch -> Settings -> Configuration -> Load override files automatically = off
+
+or
+
+`sed -i 's/auto_overrides_enable = "true"/auto_overrides_enable = "false"/g' /opt/retropie/configs/all/retroarch.cfg`
+
+
 ## Theory
 
 Modern televisions have panels which have fixed resolutions. If that resolution would be very large compared to emulated device, we wouldn't have any problems. But because most displays have only 2 to 4 times of emulated device vertical resolution, scanlines have to be in "sync", or otherwise we get uneven scanlines and artifacts.
