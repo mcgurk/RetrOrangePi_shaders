@@ -17,7 +17,7 @@ Vertical size is fixed (3 times emulator image vertical resolution).
 Works best with 720p display mode and with emulators with vertical resolution 240 or less. If vertical resolution of image is less than 240, image is not fullscreen.
 
 ### 2.5.2!
-RetrOrange default is to overwrite retroarch.cfg. Turn override off:
+RetrOrangePi 2.5.2 default is to overwrite retroarch.cfg. Turn override off:
 
 RetroPie -> Retroarch -> Settings -> Configuration -> Load override files automatically = off
 
