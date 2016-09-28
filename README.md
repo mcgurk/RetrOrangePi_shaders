@@ -3,8 +3,8 @@ Shaders for mimic CRT scanlines
 
 ## Install
 
-make "shader" directory to /home/pi/RetroPie/roms (or \\RetrOrangePi\roms).
-copy kurg-ROPi-scanlines-3x.glsl and kurg-ROPi-scanlines-3x.glslp to /home/pi/RetroPie/roms/shader (or \\RetrOrangePi\roms\shader)
+make "shader" directory to /home/pi/RetroPie/roms (or \\\\RetrOrangePi\roms).
+copy kurg-ROPi-scanlines-3x.glsl and kurg-ROPi-scanlines-3x.glslp to /home/pi/RetroPie/roms/shader (or \\\\RetrOrangePi\roms\shader)
 
 Edit emulator settings file /opt/retropie/configs/neogeo/retroarch.cfg (this example is for neogeo):
 ```
@@ -32,8 +32,8 @@ It is possible to make good quality scanline shader with scaling (normal 1080p d
 
 test-shader tries to mimic gap between pixels in one scanline. Downside is that you cannot scale image at all and aspect ratio can be very distorted (depends aspect ratio of pixel).
 
-make "shader" directory to /home/pi/RetroPie/roms (or \\RetrOrangePi\roms).
-copy test720.glsl and test720.glslp to /home/pi/RetroPie/roms/shader (or \\RetrOrangePi\roms\shader)
+make "shader" directory to /home/pi/RetroPie/roms (or \\\\RetrOrangePi\roms).
+copy test720.glsl and test720.glslp to /home/pi/RetroPie/roms/shader (or \\\\RetrOrangePi\roms\shader)
 
 Edit emulator settings file /opt/retropie/configs/neogeo/retroarch.cfg (this example is for neogeo):
 ```
