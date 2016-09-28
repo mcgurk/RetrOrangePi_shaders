@@ -11,6 +11,7 @@ Edit emulator settings, example file /opt/retropie/configs/pcengine/retroarch.cf
 video_shader = "/home/pi/RetroPie/roms/shader/test720.glslp"
 video_shader_enable = true
 ```
+test720 doesn't obey any aspect ratio settings! All pixels are assumed to be square.
 
 ## Misc/Stuff/Garbage
 (/opt/retropie/emulators/retroarch/shader)
