@@ -17,3 +17,5 @@ test720 doesn't obey any aspect ratio settings! All pixels are assumed to be squ
 ## Theory
 
 Modern televisions have panels which have fixed resolutions. If that resolution would be very large compared to emulated device, we wouldn't have any problems. But because tv have only 2 to 4 times of emulated device vertical resolution, scanlines have to be in "sync", or otherwise we get uneven scanlines and artifacts.
+
+Because ROPi can't change refresh rate between emulators and because it works best with 60hz, I assume that 60hz is used. This is important because then it is assumed that roms are NTSC (USA/JAPAN). And then we can assume that in most emulators vertical resolution is 224 or 240. This is good, because most common vertical resolutions in modern televisions are 720 and 1080.
