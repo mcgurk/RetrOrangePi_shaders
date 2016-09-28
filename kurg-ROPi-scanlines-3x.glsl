@@ -13,14 +13,12 @@ void main() {
 
 #elif defined(FRAGMENT)
 
+
 precision mediump float;
 
 uniform sampler2D Texture;
 varying vec4 TEX0;
 uniform vec2 TextureSize;
-//uniform vec2 OutputSize;
-//uniform vec2 InputSize;
-
 
 void main() {
 
@@ -43,5 +41,6 @@ void main() {
   gl_FragColor = vec4( col, 1.0 );
 
 }
+
 
 #endif
