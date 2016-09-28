@@ -16,4 +16,4 @@ test720 doesn't obey any aspect ratio settings! All pixels are assumed to be squ
 
 ## Theory
 
-Modern televisions have panels which have fixed resolutions. If that resolution would be very large compared to emulated device, we wouldn't have any problems.
+Modern televisions have panels which have fixed resolutions. If that resolution would be very large compared to emulated device, we wouldn't have any problems. But because tv have only 2 to 4 times of emulated device vertical resolution, scanlines have to be in "sync", or otherwise we get uneven scanlines and artifacts.
