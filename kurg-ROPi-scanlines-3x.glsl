@@ -1,5 +1,6 @@
 #if defined(VERTEX)
 
+
 attribute vec4 VertexCoord;
 attribute vec4 TexCoord;
 varying vec4 TEX0;
