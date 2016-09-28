@@ -14,7 +14,7 @@ video_shader_enable = true
 
 Vertical size is fixed (3 times emulator image vertical resolution).
 
-Works best with 720p display mode and with emulators with vertical resolution 240 or less. If there is less than 240, image is not fullscreen.
+Works best with 720p display mode and with emulators with vertical resolution 240 or less. If vertical resolution of image is less than 240, image is not fullscreen.
 
 ## Theory
 
