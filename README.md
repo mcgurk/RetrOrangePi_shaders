@@ -4,7 +4,7 @@ Shaders for mimic CRT scanlines
 ## Install
 
 Create "shader" directory to /home/pi/RetroPie/roms (or \\\\RetrOrangePi\roms).
-copy kurg-ROPi-scanlines-3x.glsl and kurg-ROPi-scanlines-3x.glslp to /home/pi/RetroPie/roms/shader (or \\\\RetrOrangePi\roms\shader)
+Copy kurg-ROPi-scanlines-3x.glsl and kurg-ROPi-scanlines-3x.glslp to /home/pi/RetroPie/roms/shader (or \\\\RetrOrangePi\roms\shader)
 
 Edit emulator settings file /opt/retropie/configs/neogeo/retroarch.cfg (this example is for neogeo):
 ```
