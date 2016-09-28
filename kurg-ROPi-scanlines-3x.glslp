@@ -1,7 +1,7 @@
 shaders = 1
 shader0 = kurg-ROPi-scanlines-3x.glsl
 
-filter_linear0 = false
+filter_linear0 = true
 
 scale_type_x0 = "viewport"
 scale_x0 = "1.000000"
