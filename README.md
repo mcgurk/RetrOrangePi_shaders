@@ -29,7 +29,7 @@ If we want some simulated separation for pixels in horizontal direction, we have
 It is possible to make good quality scanline shader with scaling (normal 1080p display scales 720p image without big artifacts), but if I try more complicated shaders with OPi, it slows down too much.
 
 
-Example of "broken" scanlines, where image is scaled with not integer factor:
+Example of "broken" scanlines, where image is not scaled with integer factor:
 
 <a href="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/scan_broken.jpg"><img src="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/scan_broken.jpg" height="200"></a>
 
