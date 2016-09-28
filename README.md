@@ -20,4 +20,4 @@ Modern televisions have panels which have fixed resolutions. If that resolution 
 
 Because ROPi can't change refresh rate between emulators and because it works best with 60hz, I assume that 60hz is used. This is important because then it is assumed/recommended that roms are NTSC (USA/JAPAN). And then we can assume that in most emulators vertical resolution is 224 or 240. This is good, because most common vertical resolutions in modern televisions are 720 and 1080 (not coincidence, 720 and 1080 comes from NTSC vertical resolution).
 
-If we get vertical resolution 224 from emulator, we cannot fill whole screen. If our screenmode is 720p, 3 times 224 are only 672, so there inevitably are 48 unused lines (black area under and/or top of image). Other option is to use 4 times 224, but then big parts are clipped.
+If we get vertical resolution 224 from emulator, we cannot fill whole screen. If our screenmode is 720p, 3 times 224 are only 672, so there inevitably are 48 unused lines (black area under and/or top of image). Other option is to use 4 times 224 (=896), but then big areas are clipped from top and/or bottom.
