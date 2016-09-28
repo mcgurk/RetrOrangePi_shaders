@@ -23,3 +23,5 @@ Because ROPi can't change refresh rate between emulators and because it works be
 If we get image with vertical resolution 224 from emulator, we cannot fill whole screen. If our screenmode is 720p, 3 times 224 are only 672, so there inevitably are 48 unused lines (black area under and/or top of image). Other option is to use 4 times 224 (=896), but then big areas are clipped from top and/or bottom. In 1080p display we could use 4 times 224 (=896), but then there is even more black area. If we use 5 times 224 (=1120), we have to chop only 40 pixels (8 scanlines from original image).
 
 If we want some simulated separation for pixels in horizontal direction, we have to lock also horizontal scaling to integer multiplication. That leads to situation, where we cannot keep aspect ratio correct, if pixels are originally something else than square.
+
+It is possible to make good quality scanline shader with scaling (normal 1080p display scales 720p image without big artifacts), but if I try any more complicated shaders OPi, it slows down.
