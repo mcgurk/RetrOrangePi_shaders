@@ -24,4 +24,4 @@ If we get image with vertical resolution 224 from emulator, we cannot fill whole
 
 If we want some simulated separation for pixels in horizontal direction, we have to lock also horizontal scaling to integer multiplication. That leads to situation, where we cannot keep aspect ratio correct, if pixels are originally something else than square.
 
-It is possible to make good quality scanline shader with scaling (normal 1080p display scales 720p image without big artifacts), but if I try any more complicated shaders OPi, it slows down.
+It is possible to make good quality scanline shader with scaling (normal 1080p display scales 720p image without big artifacts), but if I try any more complicated shaders with OPi, it slows down too much.
