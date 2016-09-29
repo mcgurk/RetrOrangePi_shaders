@@ -1,6 +1,14 @@
 # RetrOrangePi_shaders
 Shaders for mimic CRT scanlines
 
+Works/tested with e.g.:
+- neogeo
+- nes
+- pcengine
+- msx
+- megadrive
+- many mame/fba games
+- many others
 ## Install
 
 - Create `shader` directory to `/home/pi/RetroPie/roms` (or \\\\RetrOrangePi\roms).
