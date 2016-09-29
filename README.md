@@ -6,9 +6,13 @@ Works/tested with:
 - nes
 - pcengine
 - msx
+- playstation
+- n64
 - megadrive
 - many mame/fba games
 - many others
+
+Some emulators/consoles have interlaced (double vertical resolution) display modes (Playstation, N64). those are better without shader.
 
 ## Install
 
