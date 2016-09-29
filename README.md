@@ -12,7 +12,7 @@ Works/tested with:
 - many mame/fba games
 - many others
 
-Some emulators/consoles have interlaced (double vertical resolution) display modes (Playstation, N64). those are better without shader.
+Some emulators/consoles have interlaced (double vertical resolution) display modes (e.g. Playstation, N64). those are better without shader.
 
 ## Install
 
