@@ -1,7 +1,7 @@
 # RetrOrangePi_shaders
 Shaders for mimic CRT scanlines
 
-Works/tested with e.g.:
+Works/tested with:
 - neogeo
 - nes
 - pcengine
