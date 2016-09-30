@@ -7,7 +7,6 @@ Works/tested with:
 - pcengine
 - msx
 - playstation *
-- n64
 - megadrive *
 - many mame/fba games
 - many others
