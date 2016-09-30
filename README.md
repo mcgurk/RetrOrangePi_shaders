@@ -1,5 +1,5 @@
 # RetrOrangePi_shaders
-Shaders for mimic CRT scanlines
+Shaders for mimic CRT scanlines.
 
 If you prefer this
 
