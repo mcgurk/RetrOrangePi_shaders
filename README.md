@@ -73,7 +73,7 @@ Example of working scanlines, where image is scaled with integer factor (3x):
 
 ### Why scanline exists?
 
-CRT-televisions updated screen 50 or 60 times per second. In normal television broadcast every other frame only odd or even lines was drawn (this saved bandwith to half). These are called fields. Many old consoles and computers had half of television resolution. Television standard allowed to draw same lines in consecutive draw, so with many computers and consoles odd (or even) lines are newer drawn. Every other line are permanently black. This arrangement can be called 240p (normal television broadcast was 480i) (NTSC).
+CRT-televisions updated screen 50 or 60 times per second. In normal television broadcast every other frame only odd or even lines was drawn (this saved bandwith to half). These are called fields. Many old consoles and computers had half of television resolution. Television standard allowed to draw same lines in consecutive draw, so with many computers and consoles odd (or even) lines are newer drawn -> every other line are permanently black. This arrangement can be called 240p (normal television broadcast was 480i) (NTSC).
 
 ## experimenting
 
