@@ -71,6 +71,9 @@ Example of working scanlines, where image is scaled with integer factor (3x):
 
 <a href="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/scan_ok.jpg"><img src="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/scan_ok.jpg" height="200"></a>
 
+### Why scanline exists?
+
+CRT-televisions updated screen 50 or 60 times per second. In normal television broadcast every other frame only odd or even lines was drawn (this saved bandwith to half). These are called fields. Many old consoles and computers had half of television resolution. Television standard allowed to draw same lines in consecutive draw, so with many computers and consoles odd (or even) lines are newer drawn. Every other line are permanently black.
 
 ## experimenting
 
