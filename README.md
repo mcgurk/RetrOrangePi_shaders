@@ -2,9 +2,13 @@
 Shaders for mimic CRT scanlines
 
 If you prefer this
+
 <a href="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/outrun_scanlines.jpg"><img src="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/outrun_scanlines.jpg" height="200"></a>
+
 over this
+
 <a href="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/outrun_withoutscanlines.jpg"><img src="https://raw.githubusercontent.com/mcgurk/RetrOrangePi_shaders/master/Images/outrun_withoutscanlines.jpg" height="200"></a>
+
 you are in right place.
 
 Works/tested with:
