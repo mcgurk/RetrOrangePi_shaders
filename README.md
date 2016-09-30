@@ -5,6 +5,7 @@ Works/tested with:
 - neogeo
 - nes
 - pcengine
+- n64
 - msx
 - playstation *
 - megadrive *
