@@ -22,7 +22,7 @@ Works/tested with:
 - many mame/fba games
 - many others
 
-\* Some games with some consoles have interlaced (double vertical resolution) display modes (e.g. Playstation Gran Turismo menus, Megadrive Sonic The Hedgehog 2 2-player mode). Those games are better without shader.
+\* Some games with some consoles have interlaced (double vertical resolution) display modes (e.g. Playstation Gran Turismo menus, Megadrive Sonic The Hedgehog 2 2-player mode). Interlaced modes are better without shader.
 
 ## Install
 
