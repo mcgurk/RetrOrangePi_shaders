@@ -39,6 +39,13 @@ Vertical size is fixed (3 times emulator image vertical resolution).
 
 Works best with 720p display mode and with emulators with vertical resolution 240 or less. If vertical resolution of image is less than 240, image is not fullscreen.
 
+### kurg-ROPi-scanlines-3x_v2.glslp / .glsl
+Totally rewritten shader, which activates only when vertical resolution is between 221-241. 
+
+Better than old one because now screen is centered and e.g. in PSX-emulator shader doesn't activate in interlacer "hires" modes.
+
+If you use overlay, 4:3 screen area with 224-lines is 896x672.
+
 ### 2.5.2!
 RetrOrangePi 2.5.2 default is to overwrite retroarch.cfg. If you want edit retroarch.cfg by hand, turn override off:
 
