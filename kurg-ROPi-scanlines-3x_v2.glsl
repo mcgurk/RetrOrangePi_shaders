@@ -25,8 +25,6 @@ uniform vec2 InputSize;
 void main() {
   vec3 col;
   if (InputSize.y > 220.0 && InputSize.y < 242.0) {
-  //if (InputSize.y == 224.0) {
-    //col = texture2D(Texture, TEX0.xy).xyz * 2.0;
     float x = TEX0.x;
     float y = TEX0.y + (0.25 / TextureSize.y);
     col = texture2D(Texture, vec2(x, y)).xyz;
@@ -36,7 +34,6 @@ void main() {
       col = col * 0.6;
     }
   } else {
-    //col = texture2D(Texture, TEX0.xy).xyz / 2.0;
     col = texture2D(Texture, TEX0.xy).xyz;
   }
 
