@@ -46,6 +46,12 @@ Better than old one because now screen is centered and e.g. in PSX-emulator shad
 
 If you use overlay, 4:3 screen area with 224-lines is 896x672.
 
+Most common 8-bit and 16-bit emulators uses 224-line mode (with NTSC-games): NES, SNES, Megadrive
+
+240-linemode: PSX, PC-engine
+
+Remember activate Integer Scaling from Video-settings!
+
 ### 2.5.2!
 RetrOrangePi 2.5.2 default is to overwrite retroarch.cfg. If you want edit retroarch.cfg by hand, turn override off:
 
